@@ -3,6 +3,8 @@ body{
  width: 100%;
    text-align: center;
    font-family: 'Zen Kurenaido', sans-serif;}
+  p{margin: 20px auto;}
+  div{margin: 20px auto 40px;}
 .top{
   margin-top:0;
   padding-top: 50px;
@@ -22,14 +24,7 @@ h1{
 
     }
 #z{color: white;
-font-size: 20px;}
-.btn{background-color: #9991f2;
-      border-radius: 27px;
-      padding: 10px;
-    line-height: 2;
-    text-decoration: none;
-    color: white;}
-
+font-size: 10px;}
 h2{
   color:#94DAFF;
   font-size: 2.5rem;
@@ -48,12 +43,14 @@ h2{
 {
   background-color:#9991f2;
   margin: 0;
-  height: 100px;
-  padding: 50px;
+  padding: 30px 0 20px 0;
   opacity: 70%;
 }
 a{color: #584be3;
-  font-weight: bold;}
+  font-weight: bold;
+text-decoration: none;
+margin: 20px ;}
+a:hover{color: white;}
 #stu{text-decoration: underline;
       }
 h3{color:#4977e3;
@@ -77,4 +74,36 @@ hr{  border-style: none;
     border-top-style:   dotted;
     border-width: 10px;
     border-color: #EAF6F6;
-    width: 10%;}
+    width: 10%;
+    margin: 20px auto;}
+    .btn {
+      background: #9f45b5;
+      margin: 50px auto;
+      margin-top: 50px;
+      background-image: -webkit-linear-gradient(top, #9f45b5, #6e6ade);
+      background-image: -moz-linear-gradient(top, #9f45b5, #6e6ade);
+      background-image: -ms-linear-gradient(top, #9f45b5, #6e6ade);
+      background-image: -o-linear-gradient(top, #9f45b5, #6e6ade);
+      background-image: linear-gradient(to bottom, #9f45b5, #6e6ade);
+      -webkit-border-radius: 15;
+      -moz-border-radius: 15;
+      border-radius: 15px;
+      text-shadow: 4px 3px 6px #f0d3f0;
+      font-family: Georgia;
+      color: #ffffff;
+      font-size: 16px;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+    }
+p{line-height: 2;}
+    .btn:hover {
+      background: #963cfc;
+      background-image: -webkit-linear-gradient(top, #963cfc, #a68dcc);
+      background-image: -moz-linear-gradient(top, #963cfc, #a68dcc);
+      background-image: -ms-linear-gradient(top, #963cfc, #a68dcc);
+      background-image: -o-linear-gradient(top, #963cfc, #a68dcc);
+      background-image: linear-gradient(to bottom, #963cfc, #a68dcc);
+      text-decoration: none;
+    }
+.contact-disc{width:30%;
+                  margin:20px auto 50px auto;}
