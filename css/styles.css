@@ -3,7 +3,6 @@ body{
  width: 100%;
    text-align: center;
    font-family: 'Zen Kurenaido', sans-serif;}
-  p{margin: 20px auto;}
   div{margin: 20px auto 40px;}
 .top{
   margin-top:0;
@@ -49,7 +48,8 @@ h2{
 a{color: #584be3;
   font-weight: bold;
 text-decoration: none;
-margin: 20px ;}
+margin: 20px ;
+font-family: 'Zen Kurenaido', sans-serif;}
 a:hover{color: white;}
 #stu{text-decoration: underline;
       }
@@ -78,8 +78,6 @@ hr{  border-style: none;
     margin: 20px auto;}
     .btn {
       background: #9f45b5;
-      margin: 50px auto;
-      margin-top: 50px;
       background-image: -webkit-linear-gradient(top, #9f45b5, #6e6ade);
       background-image: -moz-linear-gradient(top, #9f45b5, #6e6ade);
       background-image: -ms-linear-gradient(top, #9f45b5, #6e6ade);
@@ -91,8 +89,7 @@ hr{  border-style: none;
       text-shadow: 4px 3px 6px #f0d3f0;
       font-family: Georgia;
       color: #ffffff;
-      font-size: 16px;
-      padding: 10px 20px 10px 20px;
+      padding: 10px;
       text-decoration: none;
     }
 p{line-height: 2;}
@@ -107,3 +104,5 @@ p{line-height: 2;}
     }
 .contact-disc{width:30%;
                   margin:20px auto 50px auto;}
+.intro{width: 30%;
+        margin: 50px auto;}
